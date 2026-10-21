@@ -1,0 +1,17 @@
+scenarioKinds:
+- id: primary
+  name: Primary
+  description: The normal successful path.
+- id: alternate
+  name: Alternate
+  description: A supported alternative with a distinct path or result.
+- id: validation
+  name: Validation
+  description: Invalid input or an unavailable action leaves existing information
+    intact.
+- id: edge
+  name: Edge
+  description: A conflict, interrupted operation, or dependency failure.
+- id: unattended
+  name: Unattended
+  description: Behavior TexLite starts without a person acting.
